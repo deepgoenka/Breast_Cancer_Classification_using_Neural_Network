@@ -16,9 +16,9 @@ The Breast Cancer Wisconsin (Diagnostic) Dataset contains features computed from
 # Model Architecture
 The neural network model consists of:
 
-Input layer with 30 neurons (input shape corresponding to the number of features)
-One hidden layer with 32 neurons and ReLU activation function
-Output layer with 2 neurons (representing the two classes) and softmax activation function
+ * Input layer with 30 neurons (input shape corresponding to the number of features)
+ * One hidden layer with 32 neurons and ReLU activation function
+ * Output layer with 2 neurons (representing the two classes) and softmax activation function
 
 # Training and Evaluation
 The model is trained using the Adam optimizer and categorical crossentropy loss function. It is trained for 20 epochs with a batch size of 64. Evaluation metrics such as accuracy, loss, confusion matrix, and classification report are generated to assess the model's performance.
